@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>GWA Calculator</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/input.css">
+  <link rel="stylesheet" href="styles/result.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="heading">
+      GWA Calculator
+    </div>
+
+    <div class="input-bar">
+      <input type="text" class="subject-name-input js-subj-name-input" 
+        placeholder="Subject name">
+      <input type="text" class="units-input js-units-input" 
+        placeholder="Units">
+      <input type="text" class="grade-input js-grade-input" 
+        placeholder="Grade">
+      <button class="add-subject js-add-subj">Add Subject</button>
+    </div>
+
+    <div class="result-container">
+      <div class="container-header">
+        <div class="subject-label">Subject Name</div>
+        <div class="units-label">Units</div>
+        <div class="grade-label">Grade</div>
+      </div>
+
+      <div class="subject-list js-subj-list">
+        <div style="height: 50px; opacity: 0;">filler</div>
+      </div>
+
+    </div>
+
+    <div class="compute-container">
+      <div class="output-section js-output-section">
+
+      </div>
+      <button class="compute-button js-compute-button">
+        Compute
+      </button>
+    </div>
+
+  </div>
+
+  <script type="module" src="scripts/subjects.js"></script>
+</body>
+
+</html>

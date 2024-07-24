@@ -1,0 +1,82 @@
+body {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+}
+
+.main-container {
+  max-width: 800px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1000px;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+  color: #374151;
+}
+
+.input-bar {
+  height: 40px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.subject-name-input, 
+.units-input,
+.grade-input {
+  font-size: 1rem;
+  border: 1px solid #4B5563;
+  border-radius: 6px;
+  padding-left: 7px;
+  flex: 1 1 0;
+}
+
+.subject-name-input {
+  max-width: 30%;
+  margin-right: 2%;
+}
+
+.units-input {
+  max-width: 6%;
+  width: 6%;
+  margin-right: 2%;
+  min-width: 40px;
+}
+
+.grade-input {
+  max-width: 8%;
+  width: 8%;
+  min-width: 50px;
+}
+
+.add-subject, 
+.compute-button {
+  color: white;
+  font-size: 1rem;
+  background-color: #374151;
+  font-weight: bolder;
+  border: none;
+  border-radius: 10px;
+  padding: 0px 15px;
+  margin-left: auto;
+  flex: 0 1 0;
+  white-space: nowrap;
+}
+
+button, 
+.remove-subj {
+  transition: opacity 0.20s;
+}
+
+button:hover, 
+.remove-subj:hover{
+  opacity: 0.8;
+}
+
+button:active, 
+.remove-subj:active{
+  opacity: 0.5;
+}
